@@ -95,6 +95,7 @@ main .about .para {
 @media (max-width: 767px) {
   main .eliminar {
     margin-right: 0px !important;
+    width: 80% !important;
   }
 }
 
