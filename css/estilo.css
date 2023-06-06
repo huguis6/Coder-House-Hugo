@@ -92,9 +92,29 @@ main .about p {
 main .about .para {
   margin-bottom: 100px;
 }
+@media (max-width: 767px) {
+  main .eliminar {
+    margin-right: 0px !important;
+  }
+}
 
 footer p {
   margin-top: 100px;
+}
+
+.cambiarrrrr {
+  width: 75%;
+}
+@media (max-width: 526px) {
+  .cambiarrrrr {
+    width: auto;
+  }
+}
+
+@media (max-width: 420px) {
+  .magen {
+    margin-left: 80px !important;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */

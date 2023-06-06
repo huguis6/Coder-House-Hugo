@@ -72,6 +72,12 @@ img{
         margin-bottom: 100px;
     }
 }
+.eliminar 
+{
+    @media (max-width:767px) {
+        margin-right: 0px !important;
+    }
+}
 
 }
 footer p
