@@ -1,9 +1,12 @@
 
+header{
+.zeti{
+   z-index: 6;
+}
 
 nav
 {
 top: 0;
-
    list-style: none;
    text-decoration: none;
    font-size: 20px;
@@ -15,18 +18,24 @@ top: 0;
    a:hover{
       color: #00c8f8  !important;
       transition: 1s !important;}
-      .posicion
-      {
+     }
+
+     .posicion
+     {
          position: absolute;
+         top: 0;
          right: 0;
-         margin-right: 15px;
+         margin-top: 10px;
+         z-index: 7 !important;
 
-         @media ( 990px <= width <= 1182px)
-         {
-            margin-right: 0px;
-            margin-left: 10px;
-            position: relative;
-         }
-      }
-
- }
+        @media (max-width:990px)
+        {
+         z-index: 7 !important;
+         top: 0;
+         right: 0;
+         margin-top: 10px;
+         margin-right: 20px;
+        }
+     }
+   }
+   
