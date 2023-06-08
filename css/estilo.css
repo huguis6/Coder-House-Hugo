@@ -3,11 +3,12 @@
   color: #a3b0b3;
 }
 
-header .zeti {
-  z-index: 6;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 header nav {
-  top: 0;
   list-style: none;
   text-decoration: none;
   font-size: 20px;
@@ -20,30 +21,15 @@ header nav a:hover {
   transition: 1s !important;
 }
 header .posicion {
-  position: absolute;
-  top: 0;
+  z-index: 11;
   right: 0;
-  margin-top: 10px;
-  z-index: 7 !important;
-}
-@media (max-width: 990px) {
-  header .posicion {
-    z-index: 7 !important;
-    top: 0;
-    right: 0;
-    margin-top: 10px;
-    margin-right: 20px;
-  }
+  margin: 6px 6px;
 }
 
 main span {
   color: #00c8f8;
 }
-main .alto {
-  margin-top: 200px;
-  margin-bottom: 30px;
-}
-main .alto h1 {
+main h1 {
   font-size: 100px;
 }
 main .botonsito {
@@ -65,18 +51,6 @@ main .parrafillo {
   margin: auto;
   width: 40%;
 }
-@media (max-width: 700px) {
-  main .parrafillo {
-    margin: auto;
-    width: 80%;
-    margin-bottom: 100px;
-  }
-}
-@media (max-width: 760px) {
-  main .estos {
-    flex-wrap: wrap;
-  }
-}
 main img {
   width: 20%;
   height: auto;
@@ -89,26 +63,78 @@ main .about p {
   margin: auto;
   width: 40%;
 }
+main .about .para {
+  margin-bottom: 100px;
+  font-size: 15px;
+}
+
+footer p {
+  margin-top: 100px;
+}
+
+.alto {
+  height: 400px;
+}
+
+body .margen12 {
+  margin-top: 200px;
+}
+body .divt {
+  height: 900px;
+  width: 100%;
+}
+body .Carousel1_ZonaM img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+body .Carousel2_ZonaM img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+body .Carousel3_ZonaM img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 @media (max-width: 700px) {
-  main .about p {
+  .parrafillo {
+    margin: auto;
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .estos {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 759px) {
+  .about p {
     margin: auto;
     width: 80% !important;
     margin-bottom: 100px;
   }
 }
-main .about .para {
-  margin-bottom: 100px;
-  font-size: 15px;
-}
+
 @media (max-width: 767px) {
-  main .eliminar {
+  .eliminar {
     margin-right: 0px !important;
-    width: 80% !important;
+    width: 80%;
   }
 }
 
-footer p {
-  margin-top: 100px;
+@media (max-width: 990px) {
+  .posicion {
+    z-index: 7;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
 }
 
 .cambiarrrrr {
@@ -122,7 +148,21 @@ footer p {
 
 @media (max-width: 420px) {
   .magen {
-    margin-left: 80px !important;
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 991px) {
+  .campeon {
+    width: 50%;
+    height: auto;
+    margin: auto !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .campeon {
+    margin-right: 1rem;
   }
 }
 

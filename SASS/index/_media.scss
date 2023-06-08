@@ -1,0 +1,74 @@
+
+
+
+
+
+.parrafillo {
+    @media (max-width:700px) {
+        margin: auto;
+        width: 80% !important;
+    }
+}
+
+.estos {
+    @media(max-width: 760px) {
+        flex-wrap: wrap;
+    }
+}
+
+.about {
+    p {
+        @media (max-width:759px) {
+            margin: auto;
+            //Aplico un margin con boostrap y en boostrap todas sus propiedades tienen important asi que para sobreponerme utilizo otro important
+            width: 80% !important;
+            margin-bottom: 100px;
+        }
+    }
+}
+
+.eliminar {
+
+    @media (max-width:767px) {
+        //Aplico un margin con boostrap y en boostrap todas sus propiedades tienen important asi que para sobreponerme utilizo otro important
+        margin-right: 0px !important;
+        width: 80% ;
+
+    }
+}
+
+.posicion {
+    @media (max-width:990px) {
+       z-index: 7;
+       top: 0;
+       right: 0;
+       margin-top: 10px;
+       margin-right: 20px;
+    }
+}
+
+.cambiarrrrr
+{
+   width: 75%;
+   @media (max-width:526px) {
+        width: auto;
+   }
+}
+.magen{
+    @media (max-width:420px) {
+        margin-left: 80px;
+    }
+}
+.campeon{
+    @media (max-width:1440px) and (min-width:991px) {
+        width: 50%;
+        height: auto;
+         //Aplico un margin con boostrap y en boostrap todas sus propiedades tienen important asi que para sobreponerme utilizo otro important
+        margin: auto !important;
+    }
+}.campeon
+{
+    @media (max-width:991px) {
+       margin-right: 1rem;
+    }
+}
