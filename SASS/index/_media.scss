@@ -18,7 +18,7 @@
 
 .about {
     p {
-        @media (max-width:759px) {
+        @media (max-width:950px) {
             margin: auto;
             //Aplico un margin con boostrap y en boostrap todas sus propiedades tienen important asi que para sobreponerme utilizo otro important
             width: 80% !important;
@@ -72,3 +72,17 @@
        margin-right: 1rem;
     }
 }
+
+
+@media screen and (max-width: 980px) {
+    
+    .carousel-item img {
+      width: 80%;
+      height: auto; 
+      overflow: hidden;
+    }
+    .elimino{
+        display: none !important; 
+    }
+  }
+  

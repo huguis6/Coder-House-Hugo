@@ -76,27 +76,29 @@ footer p {
   height: 400px;
 }
 
-body .margen12 {
-  margin-top: 200px;
+body .wrapper img {
+  width: 100% !important;
 }
-body .divt {
-  height: 900px;
-  width: 100%;
-}
-body .Carousel1_ZonaM img {
-  max-height: 100%;
+body .parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
   max-width: 100%;
-  object-fit: contain;
+  position: relative;
 }
-body .Carousel2_ZonaM img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
+body .texto-interior {
+  font-size: 2rem;
+  font-weight: bold;
+  left: 10%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 80%;
 }
-body .Carousel3_ZonaM img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
+body .img-uno {
+  background-image: url("../../assets/pxfuel.jpg");
 }
 
 @media (max-width: 700px) {
@@ -112,7 +114,7 @@ body .Carousel3_ZonaM img {
   }
 }
 
-@media (max-width: 759px) {
+@media (max-width: 950px) {
   .about p {
     margin: auto;
     width: 80% !important;
@@ -163,6 +165,17 @@ body .Carousel3_ZonaM img {
 @media (max-width: 991px) {
   .campeon {
     margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .carousel-item img {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+  }
+  .elimino {
+    display: none !important;
   }
 }
 
