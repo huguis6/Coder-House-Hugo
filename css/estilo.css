@@ -148,12 +148,6 @@ body .img-uno {
   }
 }
 
-@media (max-width: 420px) {
-  .magen {
-    margin-left: 80px;
-  }
-}
-
 @media (max-width: 1440px) and (min-width: 991px) {
   .campeon {
     width: 50%;
@@ -176,6 +170,12 @@ body .img-uno {
   }
   .elimino {
     display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  table {
+    font-size: 12px;
+    margin-bottom: 10px;
   }
 }
 
