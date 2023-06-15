@@ -178,5 +178,13 @@ body .img-uno {
     margin-bottom: 10px;
   }
 }
+body main .zi {
+  z-index: 4;
+}
+
+footer {
+  position: relative;
+  z-index: -1;
+}
 
 /*# sourceMappingURL=estilo.css.map */
