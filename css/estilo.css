@@ -68,6 +68,7 @@ main .textos, main .parrafo {
   font-size: 14px;
   text-align: left;
   padding-left: 30px;
+  padding-right: 0px !important;
 }
 main .carousel-item img {
   width: 380px;
@@ -255,7 +256,7 @@ body .texto-interior {
 }
 @media (max-width: 768px) {
   main .textos {
-    width: 110%;
+    width: 100%;
   }
 }
 @media (max-width: 1326px) {
@@ -286,10 +287,18 @@ body .texto-interior {
     width: 100% !important;
   }
 }
+@media (max-width: 360px) {
+  .campi {
+    padding-right: 0px !important;
+  }
+}
 body main .zi {
   z-index: 4;
 }
 
+.high {
+  height: 80%;
+}
 footer {
   position: relative;
   z-index: -1;

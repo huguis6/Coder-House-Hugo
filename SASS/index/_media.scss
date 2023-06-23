@@ -101,11 +101,12 @@ main{
       margin-bottom: 50px !important;
       padding: 8px !important;
 
+
     }
   }
   @media (max-width: 768px) {
     main .textos {
-      width: 110%;
+      width: 100%;
     }
   }
   @media (max-width: 1326px ) {
@@ -136,5 +137,10 @@ main{
     body .wrapper img{
       width: 100% !important;
       
+    }
+  }
+  @media (max-width:360px) {
+    .campi{
+      padding-right:0px !important ;
     }
   }
