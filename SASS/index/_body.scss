@@ -1,5 +1,12 @@
 main {
 
+    .titulo-estilo {
+        color: #444444;
+        font-weight: 700;
+        font-size: 144px;
+        text-shadow: 0px 0px 11px rgba(238, 241, 245, 0.48);
+    }
+
     span {
         color: #00c8f8;
     }
@@ -31,21 +38,28 @@ main {
 
         margin: auto;
         width: 40%;
+        opacity: 80%;
+        color: #606060;
+    }
 
+    .textos, .parrafo{
+        width: 40%;
+        height: 168px;
+        opacity: 80%;
+        color: #606060;
+        font-size: 14px;
+        text-align: left;
+        padding-left: 30px;
 
     }
 
-
-
-    img {
-
-        width: 20%;
-        height: auto;
+        .carousel-item img {
+            width: 380px;
+            height: 253px;
     }
 
     .titulo__margi {
         margin-top: 100px;
-        margin-bottom: 100px;
     }
 
     .about {
@@ -59,11 +73,20 @@ main {
             font-size: 15px;
         }
     }
+     .Planes{
+        font-size: 20px;
+    }
 
-
-
-}
+    .wit{
+        margin: 0px 10px;
+        width: 200px;
+    }
+    .custom-border-top {
+        border-top: 1px solid rgba(170, 170, 170, 0.3);
+      }
+    }
 
 footer p {
     margin-top: 100px;
 }
+
